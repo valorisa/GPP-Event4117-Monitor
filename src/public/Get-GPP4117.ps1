@@ -1,4 +1,4 @@
-﻿function Get-GPP4117 {
+function Get-GPP4117 {
     [CmdletBinding()]
     param(
         [int]$HoursBack = 24,
