@@ -145,7 +145,7 @@ GPP-Event4117-Monitor/          ← Racine module
 | `DaysBack` | `[int]` | `$null` | **Prioritaire** | `-DaysBack 7` |
 | `Output` | `[ValidateSet]` | `"table"` | `json` `csv` `table` | `-Output csv` |
 
-## 🔍 Cas d'usage réels (basés sur tes 53 événements)
+## 🔍 Cas d'usage réels (basés sur les 53 événements donnés en exemple)
 
 ### 1️⃣ **Lecteur réseau Z: manquant**
 ```
