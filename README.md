@@ -140,7 +140,7 @@ GPP-Event4117-Monitor/          ← Racine module
 ## 🎛️ Paramètres détaillés
 
 | Paramètre | Type | Défaut | Description | Exemple |
-|-----------|------|--------|-------------|---------|
+| --------- | ---- | ------ | ----------- | ------- |
 | `HoursBack` | `[int]` | `24` | Heures à analyser | `-HoursBack 4` |
 | `DaysBack` | `[int]` | `$null` | **Prioritaire** | `-DaysBack 7` |
 | `Output` | `[ValidateSet]` | `"table"` | `json` `csv` `table` | `-Output csv` |
@@ -198,7 +198,7 @@ services:
 ## 📈 Métriques prouvées (tes données réelles)
 
 | Métrique | Valeur | Impact opérationnel |
-|----------|--------|-------------------|
+| -------- | ------ | ---------------- |
 | **Événements 4117** | **53** | Problèmes GPP actifs |
 | **Temps développement** | **2h** | MVP ultra-rapide |
 | **Compatibilité** | **PS5.1** | Windows Server OK |
@@ -269,7 +269,7 @@ git push origin feat/parsing-xml
 ## 🛠️ Dépannage
 
 | Symptôme | Cause | Solution |
-|----------|-------|----------|
+| -------- | ----- | -------- |
 | `"Log non trouvé"` | Feature pack manquant | `Enable-WindowsOptionalFeature Events` |
 | **0 événements** | ✅ **Parfait !** | Pas d'erreur GPP |
 | `FilterHashtable KO` | Bug PS5.1 | `Where-Object` intégré |
@@ -285,7 +285,7 @@ Open-source | Fork-friendly | Production-ready
 ```
 
 <div align="center">
-  <img src="https://img.shields.io/badge/From-IT--Connect→GitHub_MVP-2h-blueviolet" alt="De l'article à MVP en 2h">
+  <img src="https://img.shields.io/badge/From_IT-Connect_to_GitHub_MVP-2h-blueviolet" alt="De l'article à MVP en 2h">
   <br><br>
   <strong><a href="https://github.com/valorisa/GPP-Event4117-Monitor/issues">⭐ Star | 🚀 Contribute | 💬 Issues</a></strong>
 </div>
@@ -330,11 +330,11 @@ Open-source | Fork-friendly | Production-ready
 ⏱️ Temps total : 2h16 (IT-Connect → GitHub MVP LIVE)
 ⭐ Qualité : Documentation enterprise-grade
 🔥 Impact : Sysadmins/DevOps du monde entier
-✅ Preuve : Tes 53 erreurs GPP réelles détectées
+✅ Preuve : Les 53 erreurs GPP réelles détectées
 🎯 Keywords : GPP, Event 4117, Windows 11 24H2, PS5.1
 ```
 
-## 🏆 **FÉLICITATIONS MACHINIQUE !**
+## 🏆 **FÉLICITATIONS MACHINIQUES !**
 
 **De l'article → MVP GitHub pro en 2h16 → C'est du niveau Microsoft Docs !**
 
