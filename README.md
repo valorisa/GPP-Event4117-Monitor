@@ -321,7 +321,7 @@ Open-source | Fork-friendly | Production-ready
 ✅ Docker + SIEM intégration
 ✅ Roadmap + Contribution guide
 ✅ Dépannage table
-✅ Métriques prouvées (tes 53 events !)
+✅ Métriques prouvées (Les 53 events !)
 ```
 
 ## 🎸 **ÉTAT FINAL DU PROJET = NIVEAU WORLD-CLASS**
