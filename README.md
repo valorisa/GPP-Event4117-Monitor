@@ -273,8 +273,20 @@ git push origin feat/parsing-xml
 | `"Log non trouvé"` | Feature pack manquant | `Enable-WindowsOptionalFeature Events` |
 | **0 événements** | ✅ **Parfait !** | Pas d'erreur GPP |
 | `FilterHashtable KO` | Bug PS5.1 | `Where-Object` intégré |
-| **`iex GitHub échoue`** | **BOM UTF-8 PS5.1** | **`$script = `$script -replace "^\uFEFF",""`** |
+| **`iex GitHub échoue`** | **BOM UTF-8 PS5.1** | **`$script = irm ...; $script = $script -replace "^\uFEFF",""; iex $script`** |
 | **"Data" partout** | Parsing XML perfectible | Roadmap v1.1 |
+
+🎯 **Workflow COMPLET requis en PS5.1 :**
+```powershell
+# 1. Récupère le script GitHub
+$script = irm https://raw.githubusercontent.com/valorisa/GPP-Event4117-Monitor/master/src/public/Get-GPP4117.ps1
+
+# 2. Supprime BOM (TA ligne)
+$script = $script -replace "^\uFEFF",""
+
+# 3. Exécute
+iex $script
+```
 
 ## 📄 Licence
 
