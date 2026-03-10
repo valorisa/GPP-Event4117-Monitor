@@ -195,7 +195,7 @@ services:
 }
 ```
 
-## 📈 Métriques prouvées (tes données réelles)
+## 📈 Métriques prouvées (les données réelles)
 
 | Métrique | Valeur | Impact opérationnel |
 | -------- | ------ | ---------------- |
