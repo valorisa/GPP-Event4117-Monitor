@@ -285,7 +285,7 @@ Open-source | Fork-friendly | Production-ready
 ```
 
 <div align="center">
-  <img src="https://img.shields.io/badge/From_IT-Connect_to_GitHub_MVP-2h-blueviolet" alt="De l'article à MVP en 2h">
+  <img src="https://img.shields.io/badge/MVP%20créé-en%202h16-blueviolet?style=flat" alt="MVP créé en 2h16">
   <br><br>
   <strong><a href="https://github.com/valorisa/GPP-Event4117-Monitor/issues">⭐ Star | 🚀 Contribute | 💬 Issues</a></strong>
 </div>
