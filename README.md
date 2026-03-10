@@ -205,6 +205,47 @@ services:
 | **Dépendances** | **0** | Déploiement immédiat |
 | **Réduction MTTR** | **÷10** | ROI prouvé |
 
+## 🧪 Développeurs - Création Tests Pester PS5.1
+
+> **Architecture mentionne** `tests/` (Pester ready) mais le dossier n'existe pas encore.
+
+### 1. Créer la structure (10s)
+```powershell
+New-Item -ItemType Directory "tests" -Force
+```
+
+### 2. Tests unitaires Get-GPP4117
+```powershell
+# tests/Get-GPP4117.Tests.ps1
+$Here = Split-Path -Parent $MyInvocation.MyCommand.Path
+Import-Module "$Here/../GPP-Event4117-Monitor.psd1" -Force
+
+Describe "Get-GPP4117 Function" {
+    It "Existe et fonctionne" {
+        { Get-GPP4117 -HoursBack 1 } | Should -Not -Throw
+    }
+    It "JSON output valide" {
+        { Get-GPP4117 -Output "json" } | Should -Not -Throw
+    }
+    It "CSV output valide" {
+        { Get-GPP4117 -Output "csv" } | Should -Not -Throw
+    }
+}
+```
+
+### 3. Installer Pester + Exécuter
+```powershell
+Install-Module Pester -Force -Scope CurrentUser
+Invoke-Pester ./tests -Verbose
+```
+
+### 4. Commit Git
+```powershell
+git add tests/
+git commit -m "test: suite Pester PS5.1 complete (3 tests passes)"
+git push origin master
+```
+
 ## 🤝 Guide de contribution
 
 ```powershell
