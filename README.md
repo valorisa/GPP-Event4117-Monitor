@@ -98,7 +98,7 @@ Get-GPP4117 -DaysBack 7 -Output csv
 Get-GPP4117 -HoursBack 24 -Output json | ConvertFrom-Json
 ```
 
-### Exemple sortie **RÉELLE** (53 événements sur ton système !)
+### Exemple sortie **RÉELLE** (53 événements ici sur le système !)
 ```tree
 Timestamp           EventID GPPath                    ErrorCode ErrorMsg Target
 ---------           ------- ------                    --------- -------- ------
