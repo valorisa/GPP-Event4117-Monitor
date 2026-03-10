@@ -289,7 +289,7 @@ iex $script
 ```
 
 
-**Visuel :** # COMPLET - 5 lignes (copier sans les '>>' qui précèdent)
+**Visuel :** **# COMPLET - 5 lignes (copier sans les '>>' qui précèdent)**
 ```powershell
 PS C:\Users\bbrod\Projets\GPP-Event4117-Monitor> 
 >> Remove-Module GPP-Event4117-Monitor -Force -ErrorAction SilentlyContinue
