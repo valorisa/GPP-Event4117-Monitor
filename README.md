@@ -1,4 +1,3 @@
-﻿<!--- GPP Event 4117 Monitor - Documentation complète --->
 # GPP Event 4117 Monitor
 
 [![PowerShell 5.1](https://img.shields.io/badge/PowerShell-5.1-blue?logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
@@ -239,7 +238,7 @@ git push origin feat/parsing-xml
 
 [![MIT](https://img.shields.io/github/license/valorisa/GPP-Event4117-Monitor)](LICENSE)
 
-```
+```text
 MIT © Valorisa 2026
 Open-source | Fork-friendly | Production-ready
 ```
