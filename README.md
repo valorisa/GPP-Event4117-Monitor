@@ -176,7 +176,7 @@ if (`$errors -gt 5) {
 version: "3.8"
 services:
   gpp-monitor:
-    image: mcr.microsoft.com/powershell:5.1-powershell-5.1-ubuntu-20.04
+    image: mcr.microsoft.com/powershell:5.1-powershell-ubuntu-20.04
     volumes:
       - /var/log:/logs:ro
     command: pwsh -c "Import-Module /app/GPP-Event4117-Monitor.psd1; Get-GPP4117 -Output json"
