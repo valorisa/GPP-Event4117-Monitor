@@ -288,6 +288,32 @@ $script = $script -replace "^\uFEFF",""
 iex $script
 ```
 
+
+**Visuel :** # COMPLET - 5 lignes (copier sans les '>>' qui précèdent)
+```powershell
+PS C:\Users\bbrod\Projets\GPP-Event4117-Monitor> 
+>> Remove-Module GPP-Event4117-Monitor -Force -ErrorAction SilentlyContinue
+>> $script = irm https://raw.githubusercontent.com/valorisa/GPP-Event4117-Monitor/master/src/public/Get-GPP4117.ps1
+>> $script = $script -replace "^\uFEFF",""
+>> iex $script
+>> Get-GPP4117 -HoursBack 1
+>>
+🔍 Scanning GPP Events (03/10/2026 16:18:48 → now)...
+
+Timestamp        EventID GPPath                ErrorCode ErrorMsg Target
+---------        ------- ------                --------- -------- ------
+2026-03-10 16:31    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 16:31    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 16:46    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 16:46    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 17:01    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 17:01    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 17:16    4117 System.Xml.XmlElement Data      Data     N/A
+2026-03-10 17:16    4117 System.Xml.XmlElement Data      Data     N/A
+
+PS C:\Users\bbrod\Projets\GPP-Event4117-Monitor>
+```
+
 ## 📄 Licence
 
 [![MIT](https://img.shields.io/github/license/valorisa/GPP-Event4117-Monitor)](LICENSE)
