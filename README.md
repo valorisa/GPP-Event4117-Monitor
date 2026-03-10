@@ -273,6 +273,7 @@ git push origin feat/parsing-xml
 | `"Log non trouvé"` | Feature pack manquant | `Enable-WindowsOptionalFeature Events` |
 | **0 événements** | ✅ **Parfait !** | Pas d'erreur GPP |
 | `FilterHashtable KO` | Bug PS5.1 | `Where-Object` intégré |
+| **`iex GitHub échoue`** | **BOM UTF-8 PS5.1** | **`$script = `$script -replace "^\uFEFF",""`** |
 | **"Data" partout** | Parsing XML perfectible | Roadmap v1.1 |
 
 ## 📄 Licence
