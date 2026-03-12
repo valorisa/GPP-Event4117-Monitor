@@ -48,7 +48,7 @@ Target: "Drive Z:"
 
 ### 1️⃣ Clone GitHub (Recommandé - 10s)
 ```powershell
-git clone https://github.com/valorisa/GPP-Event4117-Monitor
+git clone https://github.com/valorisa/GPP-Event4117-Monitor.git
 cd GPP-Event4117-Monitor
 Import-Module .\GPP-Event4117-Monitor.psd1 -Force
 Get-GPP4117 -HoursBack 24
@@ -250,7 +250,7 @@ git push origin master
 
 ```powershell
 # 1. Fork → Clone
-git clone YOUR_FORK_URL
+git clone https://github.com/valorisa/GPP-Event4117-Monitor.git
 cd GPP-Event4117-Monitor
 
 # 2. Tests PS5.1
